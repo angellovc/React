@@ -12,18 +12,15 @@ is accidentally used*/
 
 /* best practice */
 const hiName = (name) => `Hi ${name}`;
-console.log(hiName('Angello'));
 
 
-const getUser = () => ({
-  id: "asda",
+export const getUser = () => ({
+  id: "ABC123",
   name: "anyName",
 });
 
-console.log(getUser());
 
-const getUserActive = (name) => ({
+export const getUserActive = (name) => ({
   id: "1123",
   name: name,
 });
-console.log(getUserActive('Fernando'));

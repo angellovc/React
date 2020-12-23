@@ -4,7 +4,6 @@ const lastName = "Villegas";
 console.log(`${firtsName} ${lastName}`);
 
 
-function sayHi() {
-  return 'Hi';
+export function sayHi(name = 'Angello') {
+  return `Hi ${name}`;
 }
-console.log(`${sayHi()} ${firtsName} ${lastName}`);

@@ -1,6 +1,6 @@
 /* promises */
 
-import {getHeroeById} from './bases/08-import-export';
+import {getHeroById} from './08-import-export';
 
 // const promise = new Promise((resolve, reject) => {
 //  setTimeout(() => {
@@ -17,24 +17,24 @@ import {getHeroeById} from './bases/08-import-export';
 //   console.log(name);
 // }).catch(err => console.log(err));
 
-const getHeroByIdAsync = (id) => new Promise(
+export const getHeroByIdAsync = (id) => new Promise(
   (resolve, reject) => {
     setTimeout(() => {
-      const hero = getHeroeById(id);
+      const hero = getHeroById(id);
       if (hero) {
         resolve(hero.name);
       } else {
         reject('Hero Not Found');
       }
-    }, 3000)
+    }, 1500)
   }
 )
-.then(console.log)
-.catch(console.warn);
+// .then(console.log)
+// .catch(console.warn);
 
-getHeroByIdAsync(1);
-console.log(1);
-getHeroByIdAsync(2);
-console.log(2);
-getHeroByIdAsync(19);
-console.log(3);
+// getHeroByIdAsync(1);
+// console.log(1);
+// getHeroByIdAsync(2);
+// console.log(2);
+// getHeroByIdAsync(19);
+// console.log(3);
