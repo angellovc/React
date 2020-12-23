@@ -7,7 +7,7 @@ const CounterApp = ({value}) => {
 
   const handlerAdd = () => setCounter(counter + 1);
   const handlerSubs = () => setCounter(counter - 1)
-  const handlerReset = () => setCounter(0);
+  const handlerReset = () => setCounter(value);
 
   return (
     <Fragment>

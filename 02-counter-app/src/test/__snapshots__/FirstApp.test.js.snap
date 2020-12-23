@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FisrtApp /> Test <FirstApp /> must be displayed correctly 1`] = `
+<Fragment>
+  <h1>
+    Hi, Im Angello
+  </h1>
+  <p>
+    im a subtitle
+  </p>
+</Fragment>
+`;
+
+exports[`<FisrtApp /> Test <Must be displayed correctly 1`] = `
+<Fragment>
+  <h1>
+    Hi, Im Angello
+  </h1>
+  <p>
+    im a subtitle
+  </p>
+</Fragment>
+`;
