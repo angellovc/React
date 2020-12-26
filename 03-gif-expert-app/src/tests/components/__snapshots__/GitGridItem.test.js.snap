@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GitGridItem /> Tests Snapshot must match 1`] = `
+<div
+  className="card-image animate__animated animate__fadeIn"
+>
+  <img
+    alt="This is a Title"
+    src="https://localhost/something.jpg"
+  />
+  <p>
+    This is a Title
+  </p>
+</div>
+`;

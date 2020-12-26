@@ -2,7 +2,7 @@ import React, {Fragment, useState} from 'react';
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 
-const GitExpertApp = () => {
+const GifExpertApp = () => {
 
   // const categories = ['Dragon Ball', 'Samurai X', 'Shaman King']
 
@@ -27,4 +27,4 @@ const GitExpertApp = () => {
   );
 }
 
-export default GitExpertApp;
+export default GifExpertApp;
